@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.CountryFragment">
+
+<ImageView
+    android:id="@+id/countryFlagIV"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:scaleType="fitCenter"
+    android:minHeight="200dp"
+    android:src="@mipmap/ic_launcher"
+    android:paddingTop="10dp"/>
+<TextView
+    android:id="@+id/countryNameTv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/countryFlagIV"
+    android:text="Country Name"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:layout_centerHorizontal="true"
+    android:padding="7dp"/>
+    <TextView
+        android:id="@+id/countryCapitalTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/countryNameTv"
+        android:text="Capital"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:padding="7dp"/>
+    <TextView
+        android:id="@+id/countryRegionTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/countryCapitalTv"
+        android:text="Region"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:padding="7dp"/>
+    <TextView
+        android:id="@+id/countryCurrencyTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/countryRegionTv"
+        android:text="Currency"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:padding="7dp"/>
+    <TextView
+        android:id="@+id/countryLanguageTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/countryCurrencyTv"
+        android:text="Language"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:padding="7dp"/>
+
+</RelativeLayout>
+</layout>
